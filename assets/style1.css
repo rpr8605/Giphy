@@ -1,0 +1,73 @@
+body {
+    font-family: 'Space Mono', monospace;
+    background-image: url("images/back2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+
+}
+
+.jumbotron-fluid {
+    font-family: 'Rock Salt', cursive;
+    font-size: 5em;
+    text-align: center;
+    background: #A40000;
+    background: -moz-radial-gradient(center, #A40000 0%, #FFF413 68%, #007501 100%);
+    background: -webkit-radial-gradient(center, #A40000 0%, #FFF413 68%, #007501 100%);
+    background: radial-gradient(ellipse at center, #A40000 0%, #FFF413 68%, #007501 100%);
+    padding-right: 0;
+    padding-left: 0;
+    border-radius: 0;
+
+    p {
+        font-family: 'Space Mono', monospace;
+        padding-top: 10px;
+        font-size: 18px;
+
+    }
+
+
+    h1 {
+        font-family: 'Reenie Beanie', cursive;
+        font-style: bold;
+        font-size: 3em;
+        font-weight: bolder;
+        text-align: center;
+        position: relative;
+        letter-spacing: 8px;
+    }
+
+    h3 {
+        font-family: 'Space Mono', monospace;
+        color: orange;
+        padding-right: 10px;
+        padding-bottom: 10px;
+    }
+
+    button.puppet {
+        background: black,; 
+        border-radius: 12px;
+        color: purple !important;
+        font-style: 'Space Mono', monospace;
+        font-size: 15px;
+        padding: 10px;
+        margin: 100px !important;
+        margin-top: 20px;
+
+    }
+
+    #char-form {
+        text-align: right;
+    }
+
+
+
+    input#char-input {
+        color: #000;
+    }
+
+    input#add-char.btn,
+    btn-deafult {
+        color: #000;
+    }

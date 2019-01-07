@@ -1,71 +1,55 @@
-
-
-<!doctype html>
-<html class="no-js" lang="">
-
+<!DOCTYPE html>
+<html lang="en-us">
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title></title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-  <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png">
-
+	<meta charset="utf-8">
+	<title>Jim Henson's Creations</title>
+  <!-- Latest compiled and minified CSS -->
+  
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-   <!-- <link rel="stylesheet" href="assets/normalize.css"> -->
-   <link rel="stylesheet" href="Giphy/assets/style.css">
-    <script src="https://code.jquery.com/jquery.js"></script> 
-  <!-- Place favicon.ico in the root directory -->
-
+  <link rel="stylesheet" type="text/css" href="assets/style1.css">
+  <link href="https://fonts.googleapis.com/css?family=Reenie+Beanie|Rock+Salt" rel="stylesheet">
 
 </head>
-
 <body>
-  <!--[if lte IE 9]>
-    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-  <![endif]-->
-
-  <!-- Add your site or application content here -->
-<div class= 'container-fluid'>
 
 
-<div class="row">
-   <div id="btn-section" class="col-md-12">
+	<div class="container"><br>
 
-   </div> 
-  <div class ="row">  
-    <div class="gifImage col-md-10"> 
-        
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="display-4">Jim Henson</h1>
+        <p class="lead">and his creations</p>
+      </div>
     </div>
-        
-        <form class="col-md-3">
-        Add a topic
-        <input type="text" id="userInput">
-        <input type="submit" class="btn-info" id="submit">
-        
-        </form>
-        <p class="demo"></p>
-    </div>
-</div>
+		
 
 
+		<!-- Rendered buttons will get dumped Here  -->
+		<div id="buttons-view"></div><br>
+
+		<!-- Submit char form -->
+		<form class="navbar-form navbar-right" id="char-form">
+			<div class="form-group">
+				<label for="char-input"><h3>Add Jim Henson Character</h3></label>
+			</div>
+			<input type="text" id="char-input">
+
+			<!-- Button triggers new char to be added -->
+			<input id="add-char" button type="submit" class="btn btn-deafult" value="Submit">
+		</form>
+
+		<!-- Gifs will get dumped dere -->
+		<div id="chars-view" data-state="still"></div>
+
+	</div>
 
 
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  	<script src="https://code.jquery.com/jquery.js"></script> 
+	<script type="text/javascript" src="assets/java.js"></script>
 
-
-
-
-
-    </div>
-
-
-
-  <script type="text/javascript" src="Giphy/assets/java.js"></script>
-
+	
 </body>
-
 </html>
-
-
